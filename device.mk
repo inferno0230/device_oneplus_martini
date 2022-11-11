@@ -341,6 +341,7 @@ DEVICE_PACKAGE_OVERLAYS += \
     
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
+    FaceUnlockServiceMartini \
     CarrierConfigResCommon \
     FrameworksResTarget \
     OPlusFrameworksResCommon \
@@ -511,3 +512,4 @@ PRODUCT_BOOT_JARS += \
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/oneplus/martini/martini-vendor.mk)
+
