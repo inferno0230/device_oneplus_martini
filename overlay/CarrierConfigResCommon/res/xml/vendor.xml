@@ -1354,9 +1354,7 @@
             <item value="0201008616" />
         </string-array>
         <boolean name="carrier_support_send_media_configs_to_radio_layer_bool" value="true" />
-        <int-array name="carrier_nr_availabilities_int_array" num="1">
-            <item value="1" />
-        </int-array>
+        
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="460" mnc="01">
@@ -1391,9 +1389,7 @@
         <boolean name="allow_hold_video_call_bool" value="false" />
         <boolean name="carrier_allow_transfer_ims_call_bool" value="false" />
         <boolean name="carrier_video_crs_supported_bool" value="true" />
-        <int-array name="carrier_nr_availabilities_int_array" num="1">
-            <item value="1" />
-        </int-array>
+        
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="460" mnc="02">
@@ -1458,9 +1454,7 @@
             <item value="0201008616" />
         </string-array>
         <boolean name="carrier_support_send_media_configs_to_radio_layer_bool" value="true" />
-        <int-array name="carrier_nr_availabilities_int_array" num="1">
-            <item value="1" />
-        </int-array>
+        
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="460" mnc="03">
@@ -1502,9 +1496,7 @@
         <boolean name="support_swap_after_merge_bool" value="false" />
         <boolean name="carrier_allow_transfer_ims_call_bool" value="false" />
         <boolean name="disable_filter_out_conference_host" value="true" />
-        <int-array name="carrier_nr_availabilities_int_array" num="1">
-            <item value="1" />
-        </int-array>
+        
         <boolean name="carrier_video_crs_supported_bool" value="true" />
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
     </carrier_config>
@@ -1515,9 +1507,7 @@
             <string name="protocol">IPV4V6</string>
             <string name="roaming_protocol">IPV4V6</string>
         </map>
-        <int-array name="carrier_nr_availabilities_int_array" num="1">
-            <item value="1" />
-        </int-array>
+        
     </carrier_config>
     <carrier_config mcc="460" mnc="05">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -1633,9 +1623,7 @@
             <item value="0201008616" />
         </string-array>
         <boolean name="carrier_support_send_media_configs_to_radio_layer_bool" value="true" />
-        <int-array name="carrier_nr_availabilities_int_array" num="1">
-            <item value="1" />
-        </int-array>
+        
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="460" mnc="08">
@@ -1698,9 +1686,7 @@
             <item value="0201008616" />
         </string-array>
         <boolean name="carrier_support_send_media_configs_to_radio_layer_bool" value="true" />
-        <int-array name="carrier_nr_availabilities_int_array" num="1">
-            <item value="1" />
-        </int-array>
+        
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="460" mnc="09">
@@ -1730,9 +1716,7 @@
         <boolean name="allow_hold_video_call_bool" value="false" />
         <boolean name="carrier_allow_transfer_ims_call_bool" value="false" />
         <boolean name="carrier_video_crs_supported_bool" value="true" />
-        <int-array name="carrier_nr_availabilities_int_array" num="1">
-            <item value="1" />
-        </int-array>
+        
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="460" mnc="10">
@@ -1782,9 +1766,7 @@
         <boolean name="support_swap_after_merge_bool" value="false" />
         <boolean name="carrier_allow_transfer_ims_call_bool" value="false" />
         <boolean name="disable_filter_out_conference_host" value="true" />
-        <int-array name="carrier_nr_availabilities_int_array" num="1">
-            <item value="1" />
-        </int-array>
+        
         <boolean name="carrier_video_crs_supported_bool" value="true" />
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
     </carrier_config>
@@ -2395,9 +2377,7 @@
         <boolean name="carrier_wfc_ims_available_bool" value="false" />
         <boolean name="carrier_config_vonr_state" value="false" />
         <boolean name="carrier_config_vonr_visible" value="false" />
-        <int-array name="carrier_nr_availabilities_int_array" num="1">
-            <item value="1" />
-        </int-array>
+        
         <boolean name="hide_lte_plus_data_icon_bool" value="false" />
         <boolean name="disable_filter_out_conference_host" value="false" />
     </carrier_config>
