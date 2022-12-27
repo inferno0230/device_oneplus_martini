@@ -89,6 +89,8 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_oplus
 # Kernel
 TARGET_KERNEL_CLANG_VERSION := liyuu
 TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-liyuu
+TARGET_KERNEL_ADDITIONAL_FLAGS += LD=$(shell pwd)/prebuilts/clang/host/linux-x86/clang-liyuu/bin/ld.lld
+TARGET_KERNEL_ADDITIONAL_FLAGS += AR=$(shell pwd)/prebuilts/clang/host/linux-x86/clang-liyuu/bin/llvm-ar
 BOARD_BOOT_HEADER_VERSION := 3
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_CMDLINE := \
