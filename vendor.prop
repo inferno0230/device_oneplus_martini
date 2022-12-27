@@ -55,6 +55,7 @@ vendor.audio_hal.period_size=192
 vendor.voice.path.for.pcm.voip=true
 
 # Bluetooth
+bluetooth.device.default_name=OnePlus 9RT
 bluetooth.device.class_of_device=90,2,12
 bluetooth.hardware.power.idle_cur_ma=6
 bluetooth.hardware.power.operating_voltage_mv=3700
@@ -110,6 +111,10 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 vendor.gatekeeper.disable_spu=true
 
 # Graphics
+debug.sf.frame_rate_multiple_threshold=60
+ro.surface_flinger.set_idle_timer_ms=250
+ro.surface_flinger.set_touch_timer_ms=300
+ro.surface_flinger.set_display_power_timer_ms=1000
 debug.sf.disable_client_composition_cache=1
 debug.sf.enable_gl_backpressure=1
 debug.sf.high_fps_early_gl_phase_offset_ns=-2000000
@@ -159,6 +164,7 @@ persist.vendor.sensors.on_change_sample_period=true
 persist.vendor.sensors.sync_request=true
 
 # USB
+vendor.usb.product_string=OnePlus 9RT
 sys.usb.mtp.batchcancel=1
 vendor.usb.diag.func.name=ffs
 vendor.usb.dpl.inst.name=dpl

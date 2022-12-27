@@ -6,11 +6,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter $(call my-dir),$(PRODUCT_SOONG_NAMESPACES)),)
-include $(call all-subdir-makefiles)
-endif
-
-ifneq ($(filter lemonade lemonadep martini,$(TARGET_DEVICE)),)
+ifneq ($(filter martini,$(TARGET_DEVICE)),)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
 include $(CLEAR_VARS)
@@ -111,5 +107,4 @@ $(WIFI_FIRMWARE_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 
 ALL_DEFAULT_INSTALLED_MODULES += $(ACDBDATA_SYMLINKS) $(RFS_MSM_ADSP_SYMLINKS) $(RFS_MSM_CDSP_SYMLINKS) $(RFS_MSM_MPSS_SYMLINKS) $(RFS_MSM_SLPI_SYMLINKS) $(RFS_MSM_WPSS_SYMLINKS) $(WIFI_FIRMWARE_SYMLINKS)
 endif
-
 
