@@ -5,7 +5,9 @@
 #
 
 LOCAL_PATH := $(call my-dir)
-
+ifneq ($(filter $(call my-dir),$(PRODUCT_SOONG_NAMESPACES)),)
+include $(call all-subdir-makefiles)
+endif
 ifneq ($(filter martini,$(TARGET_DEVICE)),)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
