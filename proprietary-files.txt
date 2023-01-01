@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise, are
-## from OnePlus 9 RT OnePlus 9RT (MT2111_11_C.07).
+## from OnePlus 9 RT OnePlus 9RT (MT2111_11_F.13).
 
 # ACDBs
 vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.00.pmd
@@ -246,7 +246,6 @@ odm/lib/libcalculator_htp.so
 odm/lib/libcalculator.so
 odm/lib/libcdm_metrics_protos.so
 odm/lib/libcdm_protos.so
-odm/lib/libCNamaSDK_vendor.so
 odm/lib/libcom.oplus.calidatacontainer.so
 odm/lib/libCOppLceTonemapAPI.so
 odm/lib/libc++_shared.so
@@ -289,7 +288,6 @@ odm/lib/libVDSuperPhotoAPI.so
 odm/lib/libVDUpScale.so
 odm/lib/libWaterMode.so
 odm/lib/libXDocProcessSDK.so
-odm/lib/vendor.qti.hardware.camera.cameraextension@1.0-service-impl.so
 odm/lib64/anc.capacitive.hal.so
 odm/lib64/anc.hal.so
 odm/lib64/camera/arcsoft_calibration_uw.bin
@@ -358,7 +356,6 @@ odm/lib64/libcalculator_htp.so
 odm/lib64/libcalculator.so
 odm/lib64/libcdm_metrics_protos.so
 odm/lib64/libcdm_protos.so
-odm/lib64/libCNamaSDK_vendor.so
 odm/lib64/libcom.oplus.calidatacontainer.so
 odm/lib64/libCOppLceTonemapAPI.so
 odm/lib64/libc++_shared.so
@@ -368,7 +365,6 @@ odm/lib64/libdeccfg_v3_6.so
 odm/lib64/libDeVIS.so
 odm/lib64/libdlbdsservice_v3_6.so
 odm/lib64/libdpservice.so
-odm/lib64/libdsp_helper.so
 odm/lib64/libdualcam_image_optical_zoom.so
 odm/lib64/libdualcam_optical_zoom_control.so
 odm/lib64/libdualcam_video_optical_zoom.so
@@ -380,7 +376,6 @@ odm/lib64/libFaceDistortionCorrection.so
 odm/lib64/libFDClite.so
 odm/lib64/libffmpeg_utils.so
 odm/lib64/libFilterWrapper.so
-odm/lib64/libfuai_vendor.so
 odm/lib64/libhta.so
 odm/lib64/libhwconfigurationutil.so
 odm/lib64/libhyperlapse.so
@@ -389,7 +384,6 @@ odm/lib64/libmindroid-app.so
 odm/lib64/libmindroid-framework.so
 odm/lib64/libml_util.so
 odm/lib64/libmpbase.so
-odm/lib64/libNamaWrapper.so
 odm/lib64/libOGLManager.so
 odm/lib64/libop-ai-beauty-body-detection.so
 odm/lib64/libop-ai-beauty-faceretouch-cn.so
@@ -455,11 +449,9 @@ odm/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
 odm/lib64/vendor.oplus.hardware.engcamera@1.0.so
 odm/lib64/vendor.oplus.hardware.orms@1.0.so
 odm/lib64/vendor.oplus.hardware.orms.ormsHalService@1.0.so
-odm/lib64/vendor.qti.hardware.camera.cameraextension@1.0-service-impl.so
+odm/lib64/vendor.oplus.hardware.cameraextension@1.0-service-impl.so
 system_ext/lib/vendor.oplus.hardware.cameraMDM@1.0.so
-system_ext/lib/vendor.oplus.hardware.cameraMDM@2.0.so
 system_ext/lib64/vendor.oplus.hardware.cameraMDM@1.0.so
-system_ext/lib64/vendor.oplus.hardware.cameraMDM@2.0.so
 system_ext/lib64/vendor.oplus.hardware.camera.slogan@1.0.so
 vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
 vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc
@@ -588,8 +580,6 @@ vendor/lib/libsns_low_lat_stream_stub.so
 vendor/lib/libSonyIMX471RmscLibrary.so
 vendor/lib/libswregistrationalgo.so
 vendor/lib/libvideoutils.so
-vendor/lib/vendor.qti.hardware.camera.cameraextension@1.0-service-impl.so
-vendor/lib/vendor.qti.hardware.camera.cameraextension@1.0.so
 vendor/lib/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 vendor/lib/vendor.qti.hardware.camera.postproc@1.0.so
@@ -773,11 +763,20 @@ vendor/lib64/libtfestriping.so
 vendor/lib64/libthreadutils.so
 vendor/lib64/libvideooptfeature.so
 vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
-vendor/lib64/vendor.qti.hardware.camera.cameraextension@1.0-service-impl.so
-vendor/lib64/vendor.qti.hardware.camera.cameraextension@1.0.so
+vendor/lib64/vendor.oplus.hardware.cameraextension@1.0.so
 vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0.so
+
+# Camera - from OnePlus 9RT 12 RKQ1.211119.001
+odm/lib/libCNamaSDK_vendor.so|ce5dfe450010a4cc3ca112d49f88856ee3f430e1
+odm/lib64/libCNamaSDK_vendor.so|f9bc2877dc40001fed315fbd3f880ed123bafb07
+odm/lib64/libdsp_helper.so|c7e6ac97ec3de451aaf82ee3bb6c342135493fdb
+odm/lib64/libfuai_vendor.so|cb19be593effd0d56a7ce407249c3cc9ced7636f
+odm/lib64/libNamaWrapper.so|a1593cdb87746b750c5e060f833a0c4b68d7bedc
+odm/lib64/vendor.qti.hardware.camera.cameraextension@1.0-service-impl.so|a6e40fe6a88649fd889f266c39e553733fbbb603
+system_ext/lib/vendor.oplus.hardware.cameraMDM@2.0.so|eaa0fba5b9f773f6b3e2724381c35e766ce36902
+system_ext/lib64/vendor.oplus.hardware.cameraMDM@2.0.so|8889bc6d05accbd05c68f173d3d2c28653c6d531
 
 # Camera
 odm/etc/camera/ancsegbase/anc_cl_kernel.cache
@@ -1420,8 +1419,6 @@ vendor/lib64/libsynx.so
 vendor/lib64/libtfestriping.so
 vendor/lib64/libthreadutils.so
 vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
-vendor/lib64/vendor.qti.hardware.camera.cameraextension@1.0-service-impl.so
-vendor/lib64/vendor.qti.hardware.camera.cameraextension@1.0.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|0bed32bc1b8914a214d2bbb9b46387014feb8b4a|41ff023bb72c65b38ded7f51c9be02fd9b653618
 
 # Camera-arcsoft -OnePlus 9RT
@@ -1489,6 +1486,7 @@ odm/etc/camera/cfr_bin/CFR_imx766_uw.bin
 odm/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin
 odm/etc/camera/cfr_bin/CFR_s5k3m5.bin
 odm/etc/camera/config/camera_unit_config
+odm/etc/camera/config/camera_unit_feature_config.protobuf
 odm/etc/camera/config/imx471
 odm/etc/camera/config/imx481
 odm/etc/camera/config/imx766
@@ -1714,8 +1712,6 @@ odm/etc/camera/filters_res/lut_all_points.png
 odm/etc/camera/filters_res/overlay_p4_3_weak.png
 odm/etc/camera/fwk_config.json
 odm/etc/camera/gasryuv_1.2_wp.model
-odm/etc/camera/megvii/merged_model
-odm/etc/camera/megvii/merged_model_post
 odm/etc/camera/micFilter/blue_pink_3.png
 odm/etc/camera/micFilter/curve_0.png
 odm/etc/camera/micFilter/green_orange_2.png
@@ -2075,6 +2071,10 @@ vendor/etc/init/vendor.qti.diag.rc
 vendor/lib/vendor.qti.diaghal@1.0.so
 vendor/lib64/vendor.qti.diaghal@1.0.so
 
+#Display (CWB)
+vendor/lib64/libcwb_sm8350.so
+vendor/lib64/vendor.oplus.hardware.cwb@1.0.so
+
 # Display (Features)
 vendor/bin/feature_enabler_client
 vendor/etc/init/feature_enabler_client.rc
@@ -2192,6 +2192,9 @@ odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service
 odm/bin/init.oplus.fingerprints.sh
 odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc
 odm/etc/vintf/manifest/manifest_oplus_fingerprint.xml
+odm/lib64/vendor.oplus.hardware.osense.client@1.0.so
+odm/lib/libosensehalclient.so
+odm/lib64/libosensehalclient.so
 odm/lib64/hw/fingerprint.goodix_G3.default.so
 odm/lib64/anc.hal.so
 odm/lib64/libgf_hal_G3.so
@@ -2584,6 +2587,7 @@ vendor/lib64/libperipheral_client.so
 vendor/lib64/libspcom.so
 
 # Perf
+odm/lib/vendor.oplus.hardware.performance@1.0.so
 odm/lib64/vendor.oplus.hardware.performance@1.0.so
 vendor/bin/hw/vendor.qti.hardware.perf@2.2-service
 vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc
@@ -2602,6 +2606,7 @@ vendor/lib/libqti-perfd-client.so
 vendor/lib/libqti-perfd.so
 vendor/lib/libqti-util.so
 vendor/lib/libqti-utils.so
+vendor/lib/vendor.oplus.hardware.performance@1.0.so
 vendor/lib64/liblearningmodule.so
 vendor/lib64/libmeters.so
 vendor/lib64/libperfconfig.so
@@ -2612,6 +2617,7 @@ vendor/lib64/libqti-perfd.so
 vendor/lib64/libqti-util.so
 vendor/lib64/libqti-utils.so
 vendor/lib64/libskewknob.so
+vendor/lib64/vendor.oplus.hardware.performance@1.0.so
 
 # Perf LM
 vendor/etc/lm/prekill/prekill_2GB.data
