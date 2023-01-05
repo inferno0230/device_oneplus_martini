@@ -2075,6 +2075,10 @@ vendor/lib64/vendor.qti.diaghal@1.0.so
 vendor/lib64/libcwb_sm8350.so
 vendor/lib64/vendor.oplus.hardware.cwb@1.0.so
 
+# Display Calibration data
+vendor/etc/ltm_config_samsung_ams662zs01_fhd_cmd_mode_dsc_dsi_panel.xml
+vendor/etc/qdcm_calib_data_samsung_ams662zs01_fhd_cmd_mode_dsc_dsi_panel.xml
+
 # Display (Features)
 vendor/bin/feature_enabler_client
 vendor/etc/init/feature_enabler_client.rc
