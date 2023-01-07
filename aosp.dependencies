@@ -1,6 +1,14 @@
 [
   {
-    "repository": "android_kernel_oneplus_martini",
-    "target_path": "kernel/oneplus/martini"
+    "repository"   : "kernel_oneplus_martini",
+    "target_path"  : "kernel/oneplus/martini",
+    "remote"       : "pixel-devices",
+    "branch"       : "thirteen"
+  },
+  {
+    "repository"  : "vendor_oneplus_martini",
+    "target_path" : "vendor/oneplus/martini",
+    "branch"      : "thirteen",
+    "remote"      : "pixel-devices-blobs"
   }
 ]
