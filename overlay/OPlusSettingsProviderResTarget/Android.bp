@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "WifiResTarget",
-    vendor: true,
+    name: "OPlusSettingsProviderResTarget",
+    device_specific: true,
 }

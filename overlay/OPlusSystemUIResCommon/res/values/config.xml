@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+
+    <!-- Should we vibrate on an icon animation of the shelf. This should only be active if the
+     vibrator is capable of subtle vibrations -->
+    <bool name="config_vibrateOnIconAnimation">true</bool>
+
+    <!-- The Enrollment Progress bar for UDFPS sensor in pixels -->
+    <integer name="config_udfpsEnrollProgressBar" translatable="false">99</integer>
+    
+    <!-- Allow devices override audio panel location to the left side -->
+    <bool name="config_audioPanelOnLeftSide">true</bool>
+
+</resources>

@@ -4,6 +4,7 @@
 //
 
 runtime_resource_overlay {
-    name: "WifiResTarget",
-    vendor: true,
+    name: "OPlusSystemUIResCommon",
+    sdk_version: "current",
+    device_specific: true,
 }
