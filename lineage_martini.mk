@@ -15,11 +15,22 @@ $(call inherit-product, device/oneplus/martini/device.mk)
 $(call inherit-product, vendor/oneplus/firmware/Android.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Rice stuff
+RISING_CHIPSET := SD888
+RISING_MAINTAINER := InFeRnO
+WITH_GMS := true
+TARGET_CORE_GMS := true
+TARGET_ENABLE_BLUR := true
+TARGET_HAS_UDFPS := true
+TARGET_USE_PIXEL_FINGERPRINT := true
+TARGET_USE_GOOGLE_TELEPHONY := false
+TARGET_BUILD_APERTURE_CAMERA := true
+#-------------------------------------#
 
 TARGET_BOOT_ANIMATION_RES := 1080
-PRODUCT_NAME := aosp_martini
+PRODUCT_NAME := lineage_martini
 PRODUCT_DEVICE := martini
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
