@@ -5379,6 +5379,10 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
 			<item value="ia"/>
 			<item value="default"/>
 		</string-array>
+		<!-- PA: Do not allow 5G NSA on Jio -->
+        	<int-array name="carrier_nr_availabilities_int_array" num="1">
+            		<item value="2" />
+        	</int-array>
 	</carrier_config>
 	<carrier_config>
 		<boolean name="carrier_supports_ss_over_ut_bool" value="true"/>
