@@ -34,6 +34,14 @@ on boot
     chown system system /sys/kernel/oplus_display/hbm
     chown system system /sys/kernel/oplus_display/notify_fppress
     chown system system /sys/kernel/oplus_display/panel_serial_number
+    chown system system /sys/kernel/oplus_display/dimlayer_hbm
+    chown system system /sys/kernel/oplus_display/dim_alpha
+    chown system system /sys/kernel/oplus_display/dim_dc_alpha
+    chown system system /sys/kernel/oplus_display/force_screenfp
+    write /sys/kernel/oplus_display/force_screenfp 1
+    chown system system /sys/kernel/oplus_display/fp_type
+    write /sys/kernel/oplus_display/fp_type 0
+    chown system system /sys/kernel/oplus_display/backlight_smooth
 
     # Sensors
     chown system system /sys/devices/platform/soc/soc:sensor_fb/adsp_notify
