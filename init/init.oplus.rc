@@ -47,7 +47,7 @@ on boot
     chown system system /sys/kernel/oplus_display/fp_type
     write /sys/kernel/oplus_display/fp_type 0
     chown system system /sys/kernel/oplus_display/backlight_smooth
-
+    chown system system /sys/kernel/oplus_display/power_status
     # Sensors
     chown system system /sys/devices/platform/soc/soc:sensor_fb/adsp_notify
 
