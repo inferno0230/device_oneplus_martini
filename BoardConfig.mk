@@ -61,8 +61,6 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
 # Display
 TARGET_SCREEN_DENSITY := 450
-include hardware/qcom-caf/sm8350/display/config/display-board.mk
-SOONG_CONFIG_qtidisplay_udfps := true
 
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
