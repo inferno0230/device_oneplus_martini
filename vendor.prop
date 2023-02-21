@@ -176,6 +176,9 @@ persist.vendor.sensors.allow_non_default_discovery=true
 persist.vendor.sensors.on_change_sample_period=true
 persist.vendor.sensors.sync_request=true
 
+# Radio
+persist.radio.multisim.config=dsds
+
 # USB
 vendor.usb.product_string=OnePlus 9RT
 sys.usb.mtp.batchcancel=1
