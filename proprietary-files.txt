@@ -31,26 +31,24 @@ vendor/lib/vendor.qti.hardware.dsp@1.0.so
 vendor/lib64/libadsp_default_listener.so
 vendor/lib64/vendor.qti.hardware.dsp@1.0.so
 
-# ADSP modules
+# ADSP Modules
+odm/lib/rfsa/adsp/aiboost/libaiboostubwc_skel.so
 odm/lib/rfsa/adsp/aiboost/libQnnHtpAltPrepSkel.so
 odm/lib/rfsa/adsp/aiboost/libQnnHtpSkel.so
-odm/lib/rfsa/adsp/aiboost/libaiboostubwc_skel.so
-odm/lib/rfsa/adsp/libQnnHtp.so
-odm/lib/rfsa/adsp/libQnnHtpAltPrepSkel.so
-odm/lib/rfsa/adsp/libQnnHtpSkel.so
-odm/lib/rfsa/adsp/libSuperRawPost_skel.so
-odm/lib/rfsa/adsp/libVDHexagonBlurless_v2_skel.so
 odm/lib/rfsa/adsp/libaiboost_skel.so
 odm/lib/rfsa/adsp/libaiboost_skel_v65.so
 odm/lib/rfsa/adsp/libaiboost_skel_v66.so
+odm/lib/rfsa/adsp/libarc_gk_pt_hvx_skel.so
 odm/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so
+odm/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel_20820.so
 odm/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel.so
-odm/lib/rfsa/adsp/libarcsoft_portraitSN_hvx_skel.so
 odm/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel_20031.so
-odm/lib/rfsa/adsp/libc++.so.1
+odm/lib/rfsa/adsp/libarcsoft_portraitsn_hvx_skel_20820.so
+odm/lib/rfsa/adsp/libarcsoft_portraitSN_hvx_skel.so
 odm/lib/rfsa/adsp/libc++abi.so.1
 odm/lib/rfsa/adsp/libcalculator_domains_skel.so
 odm/lib/rfsa/adsp/libcalculator_skel.so
+odm/lib/rfsa/adsp/libc++.so.1
 odm/lib/rfsa/adsp/libhdr_skel.so
 odm/lib/rfsa/adsp/libhvxFaceBeautyPre_skel.so
 odm/lib/rfsa/adsp/libktvdrc.so
@@ -60,6 +58,9 @@ odm/lib/rfsa/adsp/libktvns.so
 odm/lib/rfsa/adsp/libktvpitchshift.so
 odm/lib/rfsa/adsp/libktvreverb.so
 odm/lib/rfsa/adsp/libktvvolume.so
+odm/lib/rfsa/adsp/libQnnHtpAltPrepSkel.so
+odm/lib/rfsa/adsp/libQnnHtpSkel.so
+odm/lib/rfsa/adsp/libQnnHtp.so
 odm/lib/rfsa/adsp/libsnpe_dsp_domains_skel.so
 odm/lib/rfsa/adsp/libsnpe_dsp_skel.so
 odm/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so
@@ -68,8 +69,10 @@ odm/lib/rfsa/adsp/libsnpe_dsp_v68_domains_v3_skel.so
 odm/lib/rfsa/adsp/libsnpe_htp_v65_skel.so
 odm/lib/rfsa/adsp/libsnpe_htp_v66_skel.so
 odm/lib/rfsa/adsp/libsnpe_htp_v68_skel.so
+odm/lib/rfsa/adsp/libSuperRawPost_skel.so
 odm/lib/rfsa/adsp/libvdblurless_4.6.10L_skel.so
 odm/lib/rfsa/adsp/libvdblurless_skel.so
+odm/lib/rfsa/adsp/libVDHexagonBlurless_v2_skel.so
 odm/lib/rfsa/adsp/libvdsuperphoto_skel.so
 odm/lib/rfsa/adsp/libworker_pool.so
 vendor/lib/rfsa/adsp/bm2n06.bin
@@ -1430,31 +1433,19 @@ vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so|0bed32bc1b8914a214d2bbb9b46387014feb8b4a|41ff023bb72c65b38ded7f51c9be02fd9b653618
 
 # Camera-arcsoft -OnePlus 9RT
-odm/lib/libarcsoft_distortion_correction.so
-odm/lib/libarcsoft_hdr_couple_api_v4.so
-odm/lib/libarcsoft_hdr_denoise_api.so
-odm/lib/libarcsoft_hdr_denoise_api_v4.so
-odm/lib/libarcsoft_high_dynamic_range.so
-odm/lib/libarcsoft_high_dynamic_range_couple_v4.so
-odm/lib/libarcsoft_high_dynamic_range_v4.so
-odm/lib/libarcsoft_lensstaindetection.so
-odm/lib/libarcsoft_low_light_hdr.so
-odm/lib/libarcsoft_scbokeh_video.so
-odm/lib/libarcsoft_smart_denoise.so
-odm/lib/libarcsoft_smart_denoise_v4.so
 odm/lib64/libarcsoft_distortion_correction.so
+odm/lib64/libarcsoft_dual_sat.so
+odm/lib64/libarcsoft_dual_zoomtranslator.so
 odm/lib64/libarcsoft_dualcam_bokeh_api.so
 odm/lib64/libarcsoft_dualcam_refocus_left.so
 odm/lib64/libarcsoft_dualcam_refocus_preview.so
 odm/lib64/libarcsoft_dualcam_refocus_uw.so
-odm/lib64/libarcsoft_dual_sat.so
-odm/lib64/libarcsoft_dual_zoomtranslator.so
 odm/lib64/libarcsoft_eis_wrapper.so
-odm/lib64/libarcsoft_hdrplus_hvx_stub.so
 odm/lib64/libarcsoft_hdr_couple_api.so
 odm/lib64/libarcsoft_hdr_couple_api_v4.so
 odm/lib64/libarcsoft_hdr_denoise_api.so
 odm/lib64/libarcsoft_hdr_denoise_api_v4.so
+odm/lib64/libarcsoft_hdrplus_hvx_stub.so
 odm/lib64/libarcsoft_high_dynamic_range.so
 odm/lib64/libarcsoft_high_dynamic_range_couple.so
 odm/lib64/libarcsoft_high_dynamic_range_couple_v4.so
