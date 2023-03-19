@@ -116,5 +116,8 @@
         <item>0</item> <!-- COLOR_MODE_DEFAULT    -->
         <item>9</item> <!-- COLOR_MODE_DISPLAY_P3 -->
     </integer-array>
+    
+    <!-- Boost Framework -->
+    <bool name="config_supportsBoostFramework">true</bool>
 
 </resources>
