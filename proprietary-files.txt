@@ -774,6 +774,14 @@ vendor/lib64/vendor.oplus.hardware.cameraextension@1.0.so
 vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0.so
+my_product/etc/camera/engineer_camera_config:system_ext/etc/camera/engineer_camera_config
+
+# Camera - from OnePlus 9RT 11 RKQ1.210614.002
+my_product/etc/camera/mtCalibrationCfg.xml:system_ext/etc/camera/mtCalibrationCfg.xml|8e26d67ebaea476625cae0eda83def7fc7f5db58
+my_product/etc/camera/mtInputparam.xml:system_ext/etc/camera/mtInputparam.xml|37bdb4740d11c213564350c6c2f341add41f94ea
+my_product/etc/camera/mwCalibrationCfg.xml:system_ext/etc/camera/mwCalibrationCfg.xml|e60f7bc8ae3816973b71a32d7f5b9240520bfef3
+my_product/etc/camera/mwInputparam.xml:system_ext/etc/camera/mwInputparam.xml|5170e7e02bd6df1154358600bdba89d7629ed3e3
+
 
 # Camera - from OnePlus 9RT 12 RKQ1.211119.001
 odm/lib/libCNamaSDK_vendor.so|ce5dfe450010a4cc3ca112d49f88856ee3f430e1

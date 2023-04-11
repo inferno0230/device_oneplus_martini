@@ -7,6 +7,8 @@
 /(vendor|system/vendor)/bin/hw/vendor\.oplus\.hardware\.cameraMDM@1\.0-service    u:object_r:vendor_hal_cameraMDM_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.oplus\.hardware\.cameraMDM@2\.0-service    u:object_r:vendor_hal_cameraMDM_default_exec:s0
 /(vendor|system/vendor)/lib64/libipebpsstriping\.so                               u:object_r:same_process_hal_file:s0
+/sys/kernel/tof_control(/.*)?                                                     u:object_r:vendor_sysfs_tof:s0
+/sys/kernel/ois_control/dump_registers                                            u:object_r:vendor_sysfs_tof:s0
 
 # Charging
 /(vendor|system/vendor)/bin/hw/vendor\.lineage\.powershare@1\.0-service\.oplus    u:object_r:hal_lineage_powershare_default_exec:s0
