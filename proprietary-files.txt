@@ -1100,7 +1100,6 @@ vendor/etc/qdcm_calib_data_samsung_ams662zs01_fhd_cmd_mode_dsc_dsi_panel.xml
 vendor/bin/feature_enabler_client
 vendor/etc/init/feature_enabler_client.rc
 vendor/etc/OnePlus_QC_LTM_Commercial_SM8350_2021_01_19.pfm
-vendor/etc/Oplus_QC_LTM_Dev_2020_10_30.pfm
 
 # Display (HDR)
 vendor/lib64/libhdr_tm.so
