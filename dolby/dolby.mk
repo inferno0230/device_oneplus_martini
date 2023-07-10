@@ -41,7 +41,8 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.product.device.db=OP_DEVICE \
     ro.vendor.product.manufacturer.db=OP_PHONE \
     vendor.product.device=OP_PHONE \
-    vendor.product.manufacturer=OPD 
+    vendor.product.manufacturer=OPD \
+    vendor.audio.dolby.ds2.enabled=true
    
 # DaxUI and daxService
 PRODUCT_PACKAGES += \
