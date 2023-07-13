@@ -1957,6 +1957,10 @@
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
         <int name="oplus.operator.ringtone" value="1"/>
         <boolean name="carrier_allow_transfer_ims_call_bool" value="false"/>
+	<!-- Only allow 5G NSA on Airtel(IN) -->
+        <int-array name="carrier_nr_availabilities_int_array" num="1">
+            	<item value="1" />
+        </int-array>
         <string-array name="mccmnc" num="24">
             <item value="40400"/>
             <item value="40402"/>
