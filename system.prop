@@ -1,0 +1,2 @@
+# Brightness Curve
+persist.sys.brightness.low.gamma=true
