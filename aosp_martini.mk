@@ -11,6 +11,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from martini device
 $(call inherit-product, device/oneplus/martini/device.mk)
 
+# Inherit OnePlus firmware
+$(call inherit-product, vendor/oneplus/firmware/Android.mk)
+
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
