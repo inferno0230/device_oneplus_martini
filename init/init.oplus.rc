@@ -54,24 +54,6 @@ on boot
     # OIS
     chown cameraserver cameraserver /sys/kernel/ois_control/dump_registers
     
-    # CPUSET
-    chown system system /dev/cpuset/cgroup.procs
-    chown system system /dev/cpuset/foreground/cgroup.procs
-    chown system system /dev/cpuset/background/cgroup.procs
-    chown system system /dev/cpuset/system-background/cgroup.procs
-    chown system system /dev/cpuset/top-app/cgroup.procs
-
-    chmod 0666 /dev/cpuset/foreground/cgroup.procs
-    chmod 0666 /dev/cpuset/background/cgroup.procs
-    chmod 0666 /dev/cpuset/system-background/cgroup.procs
-    chmod 0666 /dev/cpuset/top-app/cgroup.procs
-    chmod 0666 /dev/cpuset/cgroup.procs
-
-    chown system system /dev/stune/background/cgroup.procs
-    chown system system /dev/stune/top-app/cgroup.procs
-    chmod 0666 /dev/stune/background/cgroup.procs
-    chmod 0666 /dev/stune/top-app/cgroup.procs
-    
     # Sensors
     chown system system /sys/devices/platform/soc/soc:sensor_fb/adsp_notify
 
