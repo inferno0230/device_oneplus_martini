@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.pixelexperience.faceunlock.custom">
+    package="com.crdroid.faceunlock.custom">
 
     <overlay
         android:isStatic="true"
         android:priority="350"
-        android:targetPackage="org.pixelexperience.faceunlock" />
+        android:targetPackage="com.crdroid.faceunlock" />
 </manifest>
