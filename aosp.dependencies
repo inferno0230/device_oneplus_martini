@@ -6,6 +6,12 @@
     "branch"       : "thirteen"
   },
   {
+    "repository"  : "inferno0230/clang-r487747c",
+    "target_path" : "prebuilts/clang/host/linux-x86/clang-r487747c",
+    "branch"      : "thirteen",
+    "remote"      : "gitlab"
+  },
+  {
     "repository"  : "vendor_oneplus_martini",
     "target_path" : "vendor/oneplus/martini",
     "branch"      : "thirteen",
