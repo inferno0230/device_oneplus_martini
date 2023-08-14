@@ -1,0 +1,3 @@
+allow system_app vendor_sysfs_usb_supply:dir { search };
+allow system_app vendor_sysfs_usb_supply:file { getattr open read };
+allow system_app vendor_sysfs_usb_supply:file rw_file_perms;
