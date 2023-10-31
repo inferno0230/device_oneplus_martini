@@ -94,8 +94,11 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_oplus
 # Kernel
 TARGET_KERNEL_CLANG_VERSION := r487747c
 TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-r487747c
-TARGET_KERNEL_ADDITIONAL_FLAGS += LD=$(shell pwd)/prebuilts/clang/host/linux-x86/clang-r487747c/bin/ld.lld
-TARGET_KERNEL_ADDITIONAL_FLAGS += AR=$(shell pwd)/prebuilts/clang/host/linux-x86/clang-r487747c/bin/llvm-ar
+TARGET_KERNEL_SUPPORTS_LLVM_TOOLS=true
+TARGET_KERNEL_ADDITIONAL_FLAGS += \
+    LLVM=1 \
+    LLVM_IAS=1
+
 BOARD_BOOT_HEADER_VERSION := 3
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_CMDLINE := \
