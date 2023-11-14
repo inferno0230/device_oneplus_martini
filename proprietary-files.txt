@@ -152,6 +152,9 @@ vendor/lib/libhdmipassthru.so
 vendor/lib/libqtigef.so
 vendor/lib64/libadsprpc.so
 
+# Audio libraries - from felix-user 14 UP1A.231005.007 10754064 release-keys
+vendor/lib/soundfx/libspatialaudio.so|c84a1098a775401344d97d3c7638498d9207ccad
+
 # Audio lvacfs params
 odm/etc/lvacfs_params/2mic/LVACFS_Calibration360_2mic.dat
 odm/etc/lvacfs_params/2mic/LVACFS_Configuration.txt
