@@ -266,6 +266,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fstab.default \
     fstab.default.vendor_ramdisk \
+    init.baseband.sh \
     init.class_main.sh \
     init.lahaina.post_boot.sh \
     init.oplus.hw.rc \

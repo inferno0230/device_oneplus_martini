@@ -153,3 +153,11 @@ service oplus_sensor_fb /odm/bin/oplus_sensor_fb
     group system
     class late_start
     oneshot
+
+service baseband /odm/bin/init.baseband.sh
+    user root
+    group root
+    oneshot
+
+on property:sys.boot_completed=1
+    start baseband
